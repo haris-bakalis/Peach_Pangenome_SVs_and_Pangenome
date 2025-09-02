@@ -5,7 +5,7 @@
 #   sbatch 01_align_call_sv_minimap2_svim.sh <VARIETY> <QUERY_GENOME_FA> <REFERENCE_FA> <OUTPUT_DIR>
 # Example:
 #   sbatch 01_align_call_sv_minimap2_svim.sh variety /path/variety.genome.fa /path/Prunus_persica_V2-pseudo.fa results/variety
-#
+
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=6G
